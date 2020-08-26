@@ -1,8 +1,8 @@
 # I have successfully templated and cloned the repository on my local computer.
+**I have tried using the codesandbox.com trick by appending "box" in the git repo URL between "github" and ".com" and having it load into codesandbox.com, but it didn't work correctly**
 
-This is pretty damn cool.  This shall be the new way I download templates online.  GitHub is the shiznait.  It's mainly used for people who are working with others to keep track of commits and pull requests and merges and all that stuff.  So now that the codebase is kept in sync with GitHub, I might be able to forgo using the webdev folder on my OneDrive.  Maybe...
+I like to have everything synced to the cloud, right?  But right now I don't have my GitHub repositories automatically kept in sync with my Google Drive or OneDrive, partially because it's already kept track of by committing to Github.  But the way OneDrive works is much simpler.  If you don't necessarily need to keep track of commits and edits and such, OneDrive automatically syncs to the cloud without having to fill out commit messages.
 
-### This can all be done by navigating to the original GitHub repository and appending "box" in the URL between "github" and ".com".
 #### This will create a codesandbox where you can use the online IDE based on Visual Studio Code.  It's not the exact same but it's close.
 
 
@@ -12,9 +12,10 @@ This is pretty damn cool.  This shall be the new way I download templates online
 
 ## Preview
 
-[![New Age Preview](https://startbootstrap.com/assets/img/screenshots/themes/new-age.png)](https://startbootstrap.github.io/startbootstrap-new-age/)
+I'm using Visual Studio Code to edit as I've been having trouble with Atom, though Atom's a bit more *stylish* compared to VSC.
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-new-age/)**
+Atom has a simple HTML preview package available which I've tried and successfully used.
+
 
 ## Status
 
@@ -32,6 +33,8 @@ To begin using this template, choose one of the following options to get started
 * Install via npm: `npm i startbootstrap-new-age`
 * Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-new-age.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-new-age)
+
+###### I cloned the repo and I'm using Git and GitHub to keep track of changes and commits. ######
 
 ## Usage
 
@@ -58,17 +61,6 @@ You must have npm installed globally in order to use this build environment.
 Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/themes/new-age/).
 
 ## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerskt>
-* <https://github.com/davidtmiller>
 
 Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
