@@ -1,0 +1,55 @@
+{
+	// Place your startbootstrap-new-age-template workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
+
+
+	"mainheadersnippet_what is wrong with this": {
+		"scope": "html,css",
+		"prefix": "mainhead",
+		"body": "<!DOCTYPE html>
+		<html lang="en">
+		
+		<head>
+		
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  <meta name="description" content="">
+		  <meta name="author" content="">
+		
+		  <title>My New Template cloned from my forked github repo!</title>
+		
+		  <!-- Bootstrap core CSS -->
+		  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+		  <!-- Custom fonts for this template -->
+		  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+		  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+		  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		
+		  <!-- Plugin CSS -->
+		  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+		
+		  <!-- Custom styles for this template -->
+		  <link href="css/new-age.min.css" rel="stylesheet">
+		
+		</head>",
+		"description": "This is the main header snippet for starting a new html file in this template."
+	}
+}

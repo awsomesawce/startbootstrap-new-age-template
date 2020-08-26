@@ -2,6 +2,9 @@
 
 This is pretty damn cool.  This shall be the new way I download templates online.  GitHub is the shiznait.  It's mainly used for people who are working with others to keep track of commits and pull requests and merges and all that stuff.  So now that the codebase is kept in sync with GitHub, I might be able to forgo using the webdev folder on my OneDrive.  Maybe...
 
+### This can all be done by navigating to the original GitHub repository and appending "box" in the URL between "github" and ".com".
+#### This will create a codesandbox where you can use the online IDE based on Visual Studio Code.  It's not the exact same but it's close.
+
 
 # [Start Bootstrap - New Age](https://startbootstrap.com/themes/new-age/)
 
