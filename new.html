@@ -19,6 +19,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oxygen&family=Roboto&family=Ubuntu&display=swap"
+    rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
@@ -26,9 +29,15 @@
   <!-- Custom styles for this template -->
   <link href="css/new-age.min.css" rel="stylesheet">
   <style>
-    section {
+    section.rainbow {
       background: linear-gradient(red,blue,green,yellow);
       color:white;
+    }
+    section#features p {
+      font-family: 'Ubuntu', 'Roboto', sans-serif;
+      background:linear-gradient(rgba(255, 255, 159, 0.801),rgba(153, 182, 172, 0.747));
+      border-radius: 10px;
+      border: dashed darkgreen 3px;
     }
   </style>
 </head>
@@ -99,7 +108,7 @@
         </li>
       </li>
     </ul>
-    <section>
+    <section class="rainbow">
       <h2>This is a new section!</h2>
       <p>Will this change to the file be recognized by GitHub's Desktop application?  I believe it will.  That means I don't even need to use Git itself, because GitHub integrates Git with itself and automatically enables commits.</p>
       <h2>Why is Atom not doing what I want it to do??</h2>
@@ -107,13 +116,79 @@
       <p>Atom also makes it very easy to integrate with GitHub, since it's actually made by the same people who make GitHub.  Same company.</p>
       <p>So I recently added a few open source fonts to my windows installation.  Fonts that are not available right away.  I changed to Source Sans Pro.  I did have Roboto Mono active before, and actually that font I like better, but I'm just trying out other fonts.</p>
     </section>
-
     <div class="container">
       <h2>Ok so I'm playing around here and I actually have HTML Preview active on Atom.  It automatically parses html output every time I stop typing!</h2>
       <p>This is amazing!  Why can't VSC have this sort of power?</p>
       <p>Now I just have to figure out how to make Atom easily do the same things VSC does.</p>
-
     </div>
+    <hr>
+ <section class="features" id="features">
+   <div class="container">
+     <div class="section-heading text-center">
+       <h2>This is a complicated template</h2>
+       <p class="text-muted">Compared to other simple templates, this one has a lot more components included.</p>
+       <p class="lead">It's meant to be a template you might use if you want to introduce a new app into the mobile app market.</p>
+       <p class="small">There are lots of classes involved, editable scss files normally not included in a standard <b>Bootstrap</b> tenplate.  </p>
+       <hr>
+     </div>
+     <div class="row">
+       <div class="col-lg-4 my-auto">
+         <div class="device-container">
+           <div class="device-mockup iphone6_plus portrait white">
+             <div class="device">
+               <div class="screen">
+                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                 <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+               </div>
+               <div class="button">
+                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-8 my-auto">
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-lg-6">
+               <div class="feature-item">
+                 <i class="icon-screen-smartphone text-primary"></i>
+                 <h3>Device Mockups</h3>
+                 <p class="text-muted">Ok that's great, but how the hell am I able to use these device mockups?</p>
+               </div>
+             </div>
+             <div class="col-lg-6">
+               <div class="feature-item">
+                 <i class="icon-camera text-primary"></i>
+                 <h3>Flexible Use</h3>
+                 <p class="text-muted">Put an image, video, animation, or anything else in the screen!<br>
+                Yeah I plan on doing that as I learn about CSS animations.</p>
+               </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-6">
+               <div class="feature-item">
+                 <i class="icon-present text-primary"></i>
+                 <h3>Free to Use</h3>
+                 <p class="text-muted">As always, this theme is free to download and use for any purpose!<br>
+                That's good, I don't plan on having to buy themes when I'm learning about writing my own templates.  But there are multiple components involved in a theme like this.  I almost think it might have been better to use this them in a different way.  Possibly through <a href="http://stackbit.io">Stackbit</a></p>
+               </div>
+             </div>
+             <div class="col-lg-6">
+               <div class="feature-item">
+                 <i class="icon-lock-open text-primary"></i>
+                 <h3>Open Source</h3>
+                 <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                 <p class="lead text-primary">But you know what else is open source?  Github pages, Gatsby, and others that allow you to use <a href="http://markdownguide.com">Markdown</a> as the markup language.</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
 
     <footer>
     Copyright Carl Capodice 2020
