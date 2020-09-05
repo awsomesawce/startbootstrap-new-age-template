@@ -1,4 +1,5 @@
 # I have successfully templated and cloned the repository on my local computer.
+This is all a learning experience for me.  I'm still being introduced to the Git system.  I'd like to get proficient with Git Bash
 **I have tried using the codesandbox.com trick by appending "box" in the git repo URL between "github" and ".com" and having it load into codesandbox.com, but it didn't work correctly**
 
 ###### Thinking of moving my base `/GitHub` folder into **OneDrive**, that way the files will always stay in sync whether I push them to GitHub or not.
@@ -12,6 +13,8 @@
 - [ ] Otherwise use either Netlify or Vercel
 - [ ] Study the `.sass` files and see what makes them tick
 - [ ] Study the Bootstrap Docs.  Link [here](https://getbootstrap.com/docs/4.5/layout/overview/)
+- [ ] Ultimately get a full site up and running.  It doesn't have to be that intricate, a simple site would work just fine for now.  Just getting my feet wet.
+- [ ] Find out if there's a way to integrate a <abbr title="Static Site Generator">SSG</abbr> like Jekyll into this site.  I know Jekyll works with .markdown files, but what about .html files?  I would probably have to make a template or something.
 
 <s>I'm not sure how it compiles to CSS.  I guess I would need a way to parse the sass files?  Or I can look in the docs</s>  According to the old readme, the only files I have to worry about are the `HTML` and `CSS` files.  If that's the case, then why are the other files there?  This I have to find out.
 
